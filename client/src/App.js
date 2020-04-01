@@ -36,7 +36,7 @@ class App extends Component {
     this.timer = setInterval(this.progress, 20);
     this.callApi().then(res => this.setState({customers:res})).catch(err => console.log(err));
   }
-  callApi= async () => {
+  callApi= async() => {
     const response = await fetch('/api/customers');
     const body = await response.json();
     return body;
