@@ -84,6 +84,9 @@ class App extends Component {
               <TableCell>
                 직업
               </TableCell>
+              <TableCell>
+                삭제
+              </TableCell>
             </TableRow>
           </TableHead>
           <TableBody>
@@ -91,6 +94,7 @@ class App extends Component {
           this.state.customers ? this.state.customers.map (c=>{
             return (
               <Customer 
+              stateRefresh = {this.stateRefresh}
               key={c.id}
               id={c.id}
               name={c.name}

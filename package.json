@@ -9,11 +9,14 @@
     "dependencies": {
         "axios": "^0.19.2",
         "body-parser": "^1.19.0",
+        "dom": "0.0.3",
         "express": "^4.17.1",
         "http-proxy-middleware": "^1.0.3",
         "multer": "^1.4.2",
         "mysql": "^2.18.1",
+        "react": "^16.13.1",
         "react-lines-ellipsis": "^0.14.1",
+        "react-router-dom": "^5.1.2",
         "yarn": "^1.13.0"
     },
     "devDependencies": {
